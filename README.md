@@ -1,4 +1,6 @@
 # Homebrew Menu
+
+Modified by [wildfirebill](https://github.com/wildfirebill)
 The Homebrew Menu is a simple launcher menu which can be used to replace the menu on several DS flashcards. This menu supports the argv protocol needed for devkitARM compiled applications to make use of nitrofs as well as providing a soft reset feature where applications can exit back to the menu. Exiting to the menu is as simple as returning from main() or calling exit(0).
 
 Currently the menu is a simple text based interface but we intend to improve this in the near future. 
